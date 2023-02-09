@@ -10,50 +10,47 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
-
 }
 
 /* your code */
 body{
-  background-color: darkgreen;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.city-list{
-  border: 1px solid white;
-  width: 50%;
-  border-radius: 5px;
+  background-color: #1e3932;
+  padding: 5rem;  
 }
 
-#mainHead{
-  color: white;
+nav > h1 {
+  color: #f2f0eb
 }
 
-header{
-  width: 50%;
-  background-color: lightgray;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 1.2rem;
-}
-header >h1{
-  color: white;
-}
-
-nav{
+nav {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  margin: 1rem 3.8rem 0 3.8rem;
+  font-size: 2.5rem;
+
 }
 
-.city-item{
-  margin: 10px;
-  background-color: #4ea386;
-  padding: 10px;
-  text-align: right;
+header {
+  background-color: gray;
+  color: #27251F;
+  padding: 20px;
+  font-size: 2rem;
+  margin: -30px 3rem 1% 3rem;
   border-radius: 5px;
+}
+
+.city-list {
+  border: 2px solid #d4e9e2;
+  padding: 20px;
+  margin: 1rem 3rem 0 3rem;
+  border-radius: 5px;
+}
+
+.city-item {
+  background-color: #00754a;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 600;
 }
